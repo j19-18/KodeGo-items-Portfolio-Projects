@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Guardians of the Earth</title>
+		<link rel="stylesheet" type="text/css" href="css/styles.css">
+	</head>
+	<body id="donate">
+		<header>
+			<div class="container">
+				<div id="title-content">Guardians of the Earth</div>
+				<nav>
+					<ul>
+						<li><a href="index.html">HOME</a></li>
+						<li><a href="program.html">PROGRAM</a></li>
+						<li><a href="about.html">ABOUT US</a></li>
+						<li><a href="donate.html">DONATE</a></li>
+					</ul>
+				</nav>
+			</div>
+		</header>
+		<section id="donate-content">
+			<div id="container">
+				<div id="form-div">
+					<h2>Secured Payment Information</h2>
+					<form id="payment-form">
+						<div class="centerDiv">
+						<div id="payment-method">
+							<input type="radio" name="pm" id="ccard">
+							<img src="images/creditcard.png">
+							<input type="radio" name="pm" id="paypal">
+							<img src="images/paypal.png">
+						</div>
+						<label>Name (as it appears on your card)
+						</label>
+						<input type="text" id="donationName" placeholder="Ex.  Juan Dela Cruz" required><br>
+						<label>Card Number (no dashes or spaces)</label>
+						<input type="text" id="donationCCNumber" placeholder="xxxxxxxxxxxxxxxx" required><br>
+						<label>Expiration Date</label>
+						<input type="date" id="expirationDate" required><br>
+						<label>Security Code</label>
+						<input type="text" id="securitCode" placeholder="xxx"required><br>
+						<label>Amount (in Philippine Pesos)</label>
+						<input type="number" id="donationAmount" placeholder="xxx amount in Pesos" required><br>
+						<div class="centerDiv">
+						<button type="submit" id="donateBtn" value="Submit">Submit</button></div></div>
+					</form>
+					
+				</div>
+			</div>
+		</section>
+	
+		<footer></footer>
+	</body>
+</html>
