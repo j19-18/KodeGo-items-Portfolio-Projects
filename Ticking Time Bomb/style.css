@@ -1,0 +1,54 @@
+@font-face {
+    font-family: Code;
+    src: url('CODEM.otf');
+}
+
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	background: url('bg.jpg');
+}
+
+#content{
+	width: 500px;
+	margin: auto;
+	font: 45px 'Code';
+	text-align: center;
+}
+
+#bomb{
+	margin-top: 50px;
+	margin-bottom: 25px;
+	width: 500px;
+}
+
+#startBtn{
+	text-align: center;
+	background: white;
+	font: 45px 'Code';
+	padding: 5px;
+	outline: none;
+	border: 0;
+}
+
+#divBtn{
+	width: 140px;
+	margin: 20px auto;
+}
+
+input{
+	width: 75px;
+	height: 75px;
+	font: 40px 'Code';
+	text-align: center;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    /* display: none; <- Crashes Chrome on hover */
+    -webkit-appearance: none;
+    margin: 0; /* <-- Apparently some margin are still there even though it's hidden */
+}
