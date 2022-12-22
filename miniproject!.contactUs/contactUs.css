@@ -1,0 +1,213 @@
+@font-face {
+    font-family: "ElliotSansLight";
+    src: url("./fonts/ElliotSans-Light.ttf");
+    
+}
+@font-face {
+    font-family: "ElliotSansRegular";
+    src: url("./fonts/ElliotSans-Regular.ttf");
+    
+}
+@font-face {
+    font-family: "ElliotSansMedium";
+    src: url("./fonts/ElliotSans-Medium.ttf");
+    
+}
+@font-face {
+    font-family: "ElliotSansBold";
+    src: url("./fonts/ElliotSans-Bold.ttf");
+    
+}
+@font-face {
+    font-family: "heavitas";
+    src: url("./fonts/Heavitas.ttf");
+    font-weight: bolder;
+}
+.header{
+    
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 80px;
+    z-index: 200;
+}
+.header-first{
+    align-items: center;
+    vertical-align: middle;
+    display: flex;
+}
+.logo{
+    width: 70px;
+    border-radius: 40px;
+    margin-left: 10px;
+}
+.logo2{
+    color: white;
+    transition: .1s;
+    cursor: pointer;
+}
+.logo2:hover{
+    color: rgb(46, 45, 45) ;
+}
+ul li{
+    display: inline;
+    margin-right: 15px;
+}
+a{
+    color: white;
+    text-decoration: none;
+    font-family: "ElliotSansRegular";
+    transition: .1s;
+    
+}
+.highlights a{
+    color: rgb(46, 45, 45);
+}
+a:hover{
+    color: rgb(86, 82, 82);
+}
+.menu-bar{
+   margin-right: 80px;
+   display: flex;
+   align-items: center;
+}
+.fa.fa-search{
+    background-color:black;
+    color: white;
+    font-size: 20px;
+    transition: .1s;
+    cursor: pointer;
+}
+.fa.fa-search:hover{
+    color:rgb(86, 82, 82) ;
+}
+.fa.fa-shopping-cart{
+    color: white;
+    font-size: 20px;
+    margin-left: 0px;
+    transition: .1s;
+    cursor: pointer;
+}
+.fa.fa-shopping-cart:hover{
+    color:rgb(86, 82, 82);
+}
+button{
+    background-color: black;
+}
+h2{
+    color: rgb(46, 45, 45);
+    margin-left: 20px;
+    font-family: "Heavitas";
+}
+section{
+    padding: 40px 15%;
+}
+.contact{
+    background: #101010;
+    height: 100%;
+    width: 100%;
+    min-height: 100vh;
+    display: grid;
+    grid-template-columns: repeat(2,2fr);
+    align-items: center;
+    grid-gap: 3rem;
+}
+.contact-img img{
+    max-width: 100%;
+    width: 500px;
+    height: 640px;
+    border-radius: 10px;
+}
+.contact-form h1{
+  font-size: 80px;
+  font-family: "ElliotSansBold";
+  color: #fff;
+  margin-bottom: 20px;
+}
+.contact-form p{
+    color:#fff;
+    font-family: "ElliotSansRegular";
+    line-height: 26px;
+    font-size: medium;
+    margin-bottom: 3.8rem;
+}
+.contact-form form{
+    position: relative;
+}
+.contact-form form input,
+form textarea{
+    font-family: "ElliotSansRegular";
+    width: 100%;
+    padding: 17px;
+    border: none;
+    outline: none;
+    background: #191919;
+    color: #fff;
+    font-size: 1.1rem;
+    margin-bottom: 1.2rem;
+    border-radius: 10px;
+}
+.contact-form textarea{
+    resize: none;
+    height: 200px;
+}
+.contact-form form .btn{
+    display: inline-block;
+    background: gray;
+    font-size:medium;
+    font-family:  "ElliotSansMedium" ;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-weight: 600;
+    border: 2px;
+    border-radius: 10px;
+    width: 220px;
+    transition: ease .20s;
+    cursor: pointer;
+}
+.contact-form form .btn:hover{
+   border: 2px solid #444444;
+   background: transparent;
+   transform: scale(1.1);
+}
+.footer{
+    background-color:  rgb(28, 27, 27);
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.copyright{
+    width: 400px;
+    color: white;
+    display: flex;
+    align-items: center;
+    margin-left: 50px;
+    font-family: "ElliotSansRegular";
+}
+.icon{
+    display: flex;
+    align-items: center;
+    margin-right: 50px;
+}
+.fa {
+    width: 60px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+  }
+  .fa.fa-facebook{
+    font-size: 40px;
+  }
+  .fa.fa-instagram{
+    font-size: 40px;
+  }
+  .fa.fa-twitter{
+    font-size: 40px;
+  }
+    
