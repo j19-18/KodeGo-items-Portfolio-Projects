@@ -1,0 +1,8 @@
+table, th, td{
+    border: 2px solid black;
+    padding: 5px;
+}
+table{
+    width: 50%;
+    background-color: rgb(230, 127, 178);
+}
